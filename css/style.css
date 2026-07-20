@@ -24,9 +24,16 @@ body {
 }
 
 .container {
-  max-width: 46rem;
+  max-width: 64rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+/* two columns: profile sidebar + content */
+.layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 46rem);
+  gap: 3.2rem;
 }
 
 /* ---------- Header / navigation ---------- */
@@ -160,6 +167,92 @@ a:hover {
 .muted { color: var(--muted); }
 .small { font-size: 0.88rem; }
 
+/* ---------- Profile sidebar (rendered from "# Profile") ---------- */
+
+#profile {
+  position: sticky;
+  top: 2.5rem;
+  align-self: start;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+#profile img.portrait {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0.3rem auto 1.3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+}
+
+#profile p { margin-bottom: 0.6rem; }
+
+#profile strong {
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+#profile ul {
+  list-style: none;
+  margin: 1.2rem 0 0;
+  padding: 1.2rem 0 0;
+  border-top: 1px solid var(--rule);
+}
+
+#profile li { margin-bottom: 0.55rem; }
+
+#profile a {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+#profile a:hover { color: var(--accent-hover); }
+
+/* icons chosen by where the link points */
+#profile a::before {
+  content: "";
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: 0.55em;
+  vertical-align: -0.18em;
+  background-color: currentColor;
+  -webkit-mask: var(--icon) no-repeat center / contain;
+          mask: var(--icon) no-repeat center / contain;
+}
+
+#profile a {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");
+}
+
+#profile a[href^="mailto:"] {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='4' width='20' height='16' rx='2'/%3E%3Cpath d='m22 7-10 5L2 7'/%3E%3C/svg%3E");
+}
+
+#profile a[href*="scholar"] {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21.42 10.92a1 1 0 0 0-.02-1.84L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.83l8.57 3.91a2 2 0 0 0 1.66 0z'/%3E%3Cpath d='M22 10v6'/%3E%3Cpath d='M6 12.5V16a6 3 0 0 0 12 0v-3.5'/%3E%3C/svg%3E");
+}
+
+#profile a[href*="orcid"] {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='16' rx='2'/%3E%3Ccircle cx='9' cy='10' r='2'/%3E%3Cpath d='M15 8h2'/%3E%3Cpath d='M15 12h2'/%3E%3Cpath d='M7 16h10'/%3E%3C/svg%3E");
+}
+
+#profile a[href*="github"] {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5a5.4 5.4 0 0 0-1 3.5c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4'/%3E%3Cpath d='M9 18c-4.51 2-5-2-7-2'/%3E%3C/svg%3E");
+}
+
+#profile a[href^="files/"] {
+  --icon: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
+}
+
 /* ---------- Portrait (About tab) ---------- */
 
 #content img.portrait {
@@ -220,6 +313,24 @@ footer {
 }
 
 /* ---------- Mobile ---------- */
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: 1fr; gap: 2.2rem; }
+  #profile {
+    position: static;
+    text-align: center;
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  #profile img.portrait { width: 130px; height: 130px; }
+  #profile ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 1.4rem;
+  }
+  #profile li { margin-bottom: 0; }
+}
 
 @media (max-width: 640px) {
   html { font-size: 16px; }

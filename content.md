@@ -27,19 +27,15 @@
 **Tommy YC Wong**
 **黃昱翔**
 
-PhD student in Linguistics, HKBU · he/him
-
 - [wongyc.tommy@gmail.com](mailto:wongyc.tommy@gmail.com)
-- [Google Scholar](#)
-- [ORCID](#)
-- [GitHub](#)
-- [Download CV](files/wong-cv.pdf)
 
 # About
 
 I am a PhD student in the Academy of Language and Culture, Faculty of Arts and Social Sciences, [Hong Kong Baptist University](https://www.hkbu.edu.hk/). My research explores the *linguistics–ethics interface*: my PhD project investigates the grammatical system of ethical behaviours. My wider interests include eye-tracking, prosody, and orthography.
 
 Before my PhD, I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022) and a B.A. in English Language and Literature (First Class Honours) at HKBU (2020). I convene the Formal Language and Philosophy (FLaP) reading circle and edit *FLaP FIRST: Journal for Formal Linguistics and Philosophy*. I am an Associate Fellow of the Higher Education Academy (AFHEA).
+
+[Google Scholar](#) · [ORCID](#) · [GitHub](#) · [Download CV](files/wong-cv.pdf)
 
 ## News
 
