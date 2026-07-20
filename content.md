@@ -33,7 +33,7 @@
 - [Download CV](files/wong-cv.pdf)
 # About
 
-Hi, I am Tommy. I study what kind of cognitive system allows people to make moral judgments the way we do.
+Welcome! I study what kind of cognitive system allows people to make moral judgments the way we do.
 
 I am currently a PhD student in Linguistics at Hong Kong Baptist University. Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
 
@@ -41,11 +41,11 @@ I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022).
 
 ## News
 
-- **May 2026** — Abstract of *Principled Variations in Lyrics Segmentation* accepted by a linguistics conference [EACL-13](https://eacl-13.sciencesconf.org/) — [Abstract](files/eacl-abstract.pdf)
-- **May 2026** — Published *FLaP FIRST* volume 2 (editor-in-chief) — [Link](https://flapfirstjournal.wordpress.com/issues/)
-- **Mar 2026** — Achieved the status of **Associate Fellow** at [AdvanceHE](https://advance-he.ac.uk/)
-- **Feb 2026** — Completed qualifying exam with the manuscript *Ocular Signature of Harm-related Moral Judgments*  — [PDF](files/crp-20260114.pdf)
-- **May 2025** — Published *FLaP FIRST*  Vol. 1 — [Link](https://flapfirstjournal.wordpress.com/issues/)
+- **May 2026** — Abstract accepted by a linguistics conference [EACL-13](https://eacl-13.sciencesconf.org/). Abstract: *Principled Variations in Lyrics Segmentation* [PDF](files/eacl-abstract.pdf)
+- **May 2026** — Published *FLaP FIRST* Vol. 2 (editor-in-chief) — [read online](https://flapfirstjournal.wordpress.com/issues/)
+- **Mar 2026** — Achieved the status of Associate Fellow at [AdvanceHE](https://advance-he.ac.uk/)
+- **Feb 2026** — Completed qualifying exam. Manuscript: *Ocular Signature of Harm-related Moral Judgments*  — [PDF](files/crp-20260114.pdf)
+- **May 2025** — Published *FLaP FIRST*  Vol. 1 — [read online](https://flapfirstjournal.wordpress.com/issues/)
 
 # Research
 
@@ -55,11 +55,11 @@ I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022).
 
 My PhD research. [Placeholder — describe the project in 3–5 sentences: the central research question, your approach, and what is at stake.]
 
-### Eye Movements in Moral and Grammatical Judgments
+### Eye Movements in Moral Judgments
 
 *Eye-tracking · Moral cognition*
 
-An eye-tracking experiment (*N* = 30) shows that harm-related moral judgments carry a distinctive ocular signature — increased pupil diameter and faster orienting towards the self-avatar — emerging within seconds of deliberation. See the manuscript [*Ocular Signature of Harm-related Moral Judgments*](files/crp-20260114.pdf). I am currently designing stimuli for a follow-up study comparing eye movement patterns of moral and grammatical judgments.
+An eye-tracking experiment (*N* = 30) shows that harm-related moral judgments carry a distinctive ocular signature — increased pupil diameter and faster orienting towards the self-avatar — emerging within seconds of deliberation. See the manuscript *Ocular Signature of Harm-related Moral Judgments* [pdf](files/crp-20260114.pdf). I am currently designing stimuli for a follow-up study comparing eye movement patterns of moral and grammatical judgments.
 
 ### Lyric Segmentation in Music Video Subtitling
 
@@ -68,8 +68,6 @@ An eye-tracking experiment (*N* = 30) shows that harm-related moral judgments ca
 In music video subtitling, spatial breaks segment Chinese lyric lines at preferred positions. This project uncovers the grammatical principles governing the interface between visual presentation, syntax, and musical prosody in Cantonese songs — promising insight into Cantonese prosody where evidence from tone sandhi is lacking. To be presented at EACL-13 (Paris, September 2026) — [Abstract](files/eacl-abstract.pdf).
 
 # Publications
-
-All PDFs are hosted on this site and free to download.
 
 ## Articles & Manuscripts
 
@@ -87,11 +85,11 @@ All PDFs are hosted on this site and free to download.
 
 > ***FLaP FIRST: Journal for Formal Linguistics and Philosophy*, volume 2**
 > **Wong, Tommy Y.C.**, Zhixing Mei, Yoyo P.Y. Tsang, & Nuo Xu (eds.) (2026)
-> [Full issue PDF](files/flap-first-vol2.pdf) [DOI](https://doi.org/10.5281/zenodo.20130405)
+> [read online](https://flapfirstjournal.wordpress.com/issues/) [DOI](https://doi.org/10.5281/zenodo.20130405)
 
 > ***FLaP FIRST: Journal for Formal Linguistics and Philosophy*, volume 1**
 > Zhao, Kaixin, Yoyo P.Y. Tsang, & **Wong, Tommy Y.C.** (eds.) (2025)
-> [Full issue PDF](files/flap-first-vol1.pdf) [DOI](https://doi.org/10.5281/zenodo.15461747)
+> [read online](https://flapfirstjournal.wordpress.com/issues/) [DOI](https://doi.org/10.5281/zenodo.15461747)
 
 ## Reviews & Reflections
 
