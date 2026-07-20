@@ -5,6 +5,10 @@
 
   How it works:
   - Every "# Heading" (a single #) becomes a TAB in the navigation.
+  - EXCEPT "# Profile", which is special: it fills the sidebar shown
+    on every tab (photo, name, tagline, contact links). In it, links
+    get an icon based on where they point (mailto → envelope,
+    scholar/orcid/github recognised by URL, files/ → download).
   - "## Heading" is a section heading inside a tab.
   - "### Heading" is a smaller sub-heading (project titles, years).
   - Quote blocks (lines starting with ">") render as bordered cards —
@@ -16,110 +20,115 @@
   =====================================================================
 -->
 
+# Profile
+
+<img class="portrait" src="images/profile.jpg" alt="Portrait of Tommy YC Wong">
+
+**Tommy YC Wong**
+**黃昱翔**
+
+PhD student in Linguistics, HKBU · he/him
+
+- [wongyc.tommy@gmail.com](mailto:wongyc.tommy@gmail.com)
+- [Google Scholar](#)
+- [ORCID](#)
+- [GitHub](#)
+- [Download CV](files/wong-cv.pdf)
+
 # About
 
-<img class="portrait" src="images/profile.svg" alt="Portrait of Tommy Y.C. Wong">
+I am a PhD student in the Academy of Language and Culture, Faculty of Arts and Social Sciences, [Hong Kong Baptist University](https://www.hkbu.edu.hk/). My research explores the *linguistics–ethics interface*: my PhD project investigates the grammatical system of ethical behaviours. My wider interests include eye-tracking, prosody, and orthography.
 
-<h1>Tommy YC Wong | 黃昱翔</h1>
-
-<p class="subtitle">PhD student in Linguistics, Hong Kong Baptist University</p>
-
-I am a PhD student in the Department of English Language and Literature at [Hong Kong Baptist University](https://www.hkbu.edu.hk/). My research lies in formal linguistics, with particular interests in the *ethics–linguistics interface* and *Optimality Theory*.
-
-[Placeholder — a second short paragraph about your dissertation topic, your supervisor, and what questions drive your work. Two or three sentences is plenty.]
-
-[Email](mailto:wongyc.tommy.acc@gmail.com) · [Google Scholar](#) · [ORCID](#) · [GitHub](#)
+Before my PhD, I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022) and a B.A. in English Language and Literature (First Class Honours) at HKBU (2020). I convene the Formal Language and Philosophy (FLaP) reading circle and edit *FLaP FIRST: Journal for Formal Linguistics and Philosophy*. I am an Associate Fellow of the Higher Education Academy (AFHEA).
 
 ## News
 
-- **Jun 2026** — [Placeholder] Paper accepted at *Journal of Formal Linguistics* — [PDF](files/wong-2026-placeholder-paper.pdf)
-- **May 2026** — [Placeholder] Presented at a conference on Optimality Theory — [Slides](files/wong-2026-placeholder-slides.pdf)
-- **Mar 2026** — [Placeholder] New manuscript on the ethics–linguistics interface available as a preprint
-- **Jan 2026** — [Placeholder] Began serving as a teaching assistant for an introductory linguistics course
-- **Feb 2026** — Achieved 
+- **Sep 2026** — Presenting *Principled Variations in Lyrics Segmentation* at EACL-13, Paris — [Abstract](files/eacl-abstract.pdf)
+- **May 2026** — *FLaP FIRST* volume 2 is out, my first issue as Editor-in-Chief — [PDF](files/flap-first-vol2.pdf)
+- **May 2026** — Seminar reflection on individual differences in multilingual acquisition published at [HKBU English Agora](https://buhk.me/2026/05/13/seminar-reflection-on-individual-differences-are-revealing-relevant-and-not-random-in-multilingual-language-acquisition-processing-and-related-adaptations-in-neurocognition/)
+- **Jan 2026** — Qualifying exam paper *Ocular Signature of Harm-related Moral Judgments* completed — [PDF](files/crp-20260114.pdf)
+- **Nov 2025** — Gave a guest lecture on eye-tracking methods in LANG7110 Research Methodology, HKBU
+- **May 2025** — *FLaP FIRST* volume 1 published — [PDF](files/flap-first-vol1.pdf)
+- **Sep 2024** — Started the PhD programme in linguistics at HKBU
 
 # Research
 
-### The Ethics–Linguistics Interface
+### The Grammatical System of Ethical Behaviours
 
-*Moral language · Normativity · Semantics–pragmatics*
+*Linguistics–ethics interface · Moral language*
 
-[Placeholder — describe this project in 3–5 sentences: the central research question, your approach, and what is at stake. E.g., how moral vocabulary and normative claims interact with formal semantic and pragmatic theory.]
+My PhD research. [Placeholder — describe the project in 3–5 sentences: the central research question, your approach, and what is at stake.]
 
-### Optimality Theory
+### Eye Movements in Moral and Grammatical Judgments
 
-*Constraint interaction · Phonology · Learnability*
+*Eye-tracking · Moral cognition*
 
-[Placeholder — describe your OT work: which empirical domains you model, what constraint interactions you investigate, and any theoretical innovations you are developing.]
+An eye-tracking experiment (*N* = 30) shows that harm-related moral judgments carry a distinctive ocular signature — increased pupil diameter and faster orienting towards the self-avatar — emerging within seconds of deliberation. See the manuscript [*Ocular Signature of Harm-related Moral Judgments*](files/crp-20260114.pdf). I am currently designing stimuli for a follow-up study comparing eye movement patterns of moral and grammatical judgments.
 
-### Formal Linguistics
+### Lyric Segmentation in Music Video Subtitling
 
-*Syntax · Semantics · Cantonese*
+*Prosody · Syntax–music interface · Cantonese*
 
-[Placeholder — describe a third strand of your research, for example formal analyses of phenomena in Cantonese or other languages you work on.]
+In music video subtitling, spatial breaks segment Chinese lyric lines at preferred positions. This project uncovers the grammatical principles governing the interface between visual presentation, syntax, and musical prosody in Cantonese songs — promising insight into Cantonese prosody where evidence from tone sandhi is lacking. To be presented at EACL-13 (Paris, September 2026) — [Abstract](files/eacl-abstract.pdf).
 
 # Publications
 
 All PDFs are hosted on this site and free to download.
 
-## Journal Articles
+## Articles & Manuscripts
 
-### 2026
+> **Ocular Signature of Harm-related Moral Judgments**
+> **Wong, Tommy Y.C.** (2026)
+> Manuscript (qualifying exam paper), Hong Kong Baptist University
+> [PDF](files/crp-20260114.pdf)
 
-> **[Placeholder] Constraint interaction at the ethics–linguistics interface**
-> **Tommy Y.C. Wong**
-> *Journal of Formal Linguistics*, 12(3), 245–278
-> [PDF](files/wong-2026-placeholder-paper.pdf) [DOI](#) [BibTeX](#)
-
-### 2025
-
-> **[Placeholder] An Optimality-Theoretic account of a phenomenon in Cantonese**
-> **Tommy Y.C. Wong** and Co-Author Name
-> *Language and Linguistics*, 26(2), 101–134
-> [PDF](files/wong-2025-placeholder-paper.pdf) [DOI](#) [BibTeX](#)
-
-## Conference Proceedings
-
-> **[Placeholder] Moral predicates and gradability: a formal analysis**
-> **Tommy Y.C. Wong**
-> *Proceedings of a Linguistics Conference*, 2025
-> [PDF](files/wong-2025-placeholder-proceedings.pdf) [BibTeX](#)
-
-## Manuscripts & Work in Progress
-
-> **[Placeholder] Title of a manuscript under review**
-> **Tommy Y.C. Wong**
-> Under review · [request a draft](mailto:wongyc.tommy.acc@gmail.com)
+> **Creative Adaptations of Chinese Orthography**
+> Wee, Lian-Hee & **Wong, Tommy Y.C.** (2025)
+> *ThinkChina*
+> [Read online](https://www.thinkchina.sg/culture/creative-adaptations-chinese-orthography)
 
 ## Edited Journal Issues
 
-> **[Placeholder] Special issue: Ethics and the language sciences**
-> Edited by **Tommy Y.C. Wong** and Co-Editor Name
-> *Journal Name*, Volume 8, 2026
-> [Full issue PDF](files/wong-2026-placeholder-journal-issue.pdf) [Publisher page](#)
+> ***FLaP FIRST: Journal for Formal Linguistics and Philosophy*, volume 2**
+> **Wong, Tommy Y.C.**, Zhixing Mei, Yoyo P.Y. Tsang, & Nuo Xu (eds.) (2026)
+> [Full issue PDF](files/flap-first-vol2.pdf) [DOI](https://doi.org/10.5281/zenodo.20130405)
+
+> ***FLaP FIRST: Journal for Formal Linguistics and Philosophy*, volume 1**
+> Zhao, Kaixin, Yoyo P.Y. Tsang, & **Wong, Tommy Y.C.** (eds.) (2025)
+> [Full issue PDF](files/flap-first-vol1.pdf) [DOI](https://doi.org/10.5281/zenodo.15461747)
+
+## Reviews & Reflections
+
+> **Review of N. Otre Le Vant's *On Progress in Physics and Subjectivity Theory: An Amateur's Meanderings as Inspiration for Actual Physicists***
+> **Wong, Tommy Y.C.** (2025)
+> *FLaP FIRST*, vol. 1: 109–111
+> [Full issue PDF](files/flap-first-vol1.pdf)
+
+> **Seminar Reflection on "Individual Differences are Revealing, Relevant and Not Random in Multilingual Language Acquisition/Processing and Related Adaptations in Neurocognition"**
+> **Wong, Tommy Y.C.** (2026)
+> *HKBU English Agora*
+> [Read online](https://buhk.me/2026/05/13/seminar-reflection-on-individual-differences-are-revealing-relevant-and-not-random-in-multilingual-language-acquisition-processing-and-related-adaptations-in-neurocognition/)
 
 # Talks
 
 ## Upcoming
 
-> **[Placeholder] Title of an upcoming conference talk**
-> Conference Name, City · September 2026
+> **Principled Variations in Lyrics Segmentation**
+> EACL-13, Paris, France · September 2026
+> [Abstract](files/eacl-abstract.pdf)
 
 ## Recent
 
-> **[Placeholder] Optimality Theory and normative language**
-> Invited talk, University Name · May 2026
-> [Slides](files/wong-2026-placeholder-slides.pdf) [Handout](files/wong-2026-placeholder-handout.pdf)
-
-> **[Placeholder] A talk given at a departmental seminar**
-> HKBU Linguistics Seminar · February 2026
-> [Handout](files/wong-2026-placeholder-handout.pdf)
+> **Using Eye-tracking in Research**
+> Guest lecture, LANG7110 Research Methodology (M.A. course), Hong Kong Baptist University · 13 November 2025
 
 ## Earlier
 
-> **[Placeholder] An earlier conference presentation**
-> Conference Name, City · November 2025
-> [Poster](files/wong-2025-placeholder-poster.pdf)
+> **Against Biological Essentialism**
+> Formal Language and Philosophy (FLaP), Hong Kong Baptist University · 2021
+
+> **Agamben's Anthropological Machine and Derrida's Cat** (with Jacky W.W. Wong)
+> Philosophy, Ethics, and Religious Studies (PERS), Hong Kong Baptist University · 2019
 
 # CV
 
@@ -129,19 +138,31 @@ A brief overview — the full CV is available as a PDF.
 
 ## Education
 
-- **PhD in Linguistics, Hong Kong Baptist University** — 2025–present · [Placeholder: supervisor, dissertation topic]
-- **[Placeholder] MA in Linguistics, University Name** — 20XX–20XX
-- **[Placeholder] BA in Language Studies, University Name** — 20XX–20XX
+- **Ph.D. in Linguistics (in progress)** — Hong Kong Baptist University, since September 2024
+- **M.A. in Philosophy** — Chinese University of Hong Kong, 2022
+- **B.A. in English Language and Literature (First Class Honours)**, minor in Religion, Philosophy, and Ethics — Hong Kong Baptist University, 2020. Thesis: *Anthropocentrism and Alternatives*
 
-## Awards & Grants
+## Awards
 
-- **[Placeholder] Postgraduate Studentship** — Hong Kong Baptist University, 2025
-- **[Placeholder] Award or scholarship name** — Institution, 20XX
+- **Rainbow Award for Best Honours Project on Social Justice** — Hong Kong Baptist University, 2020
+- **President's Honour Roll** — HKBU (Fall 2017/18; Spring & Fall 2018/19; Spring 2019/20)
+- **Dean's List** — HKBU (Fall 2016/17; Spring 2017/18)
 
 ## Teaching
 
-- **[Placeholder] Teaching Assistant, Introduction to Linguistics** — HKBU, Spring 2026
+- **Teaching Assistant, ENGL 2016 Sounds of English around the World** — HKBU, 2024–25 Semester 2
+- **Teaching Assistant, ENGL 3026 Introduction to Language Disorders** — HKBU, 2024–25 Semester 1
+- **Demonstrator, Program of Improv Games for Lively English Teaching (PIGLET)** — 2021–2023, ~67 videos on [YouTube](https://www.youtube.com/channel/UCk_TYMIPgaa8T13WNJGiqLg/videos)
 
 ## Service
 
-- **[Placeholder] Reviewer / organizing committee role** — Conference or journal name, 20XX
+- ***FLaP FIRST: Journal for Formal Linguistics and Philosophy*** — Editor (vol. 1, 2025); Editor-in-Chief (vol. 2, 2026); Editor (vol. 3, forthcoming)
+- **Formal Language and Philosophy (FLaP) reading circle, HKBU** — founding member (2020–present); convenor (2020–2022, 2024–present)
+- **Heterotopic Junction Conference on Language, Literature, and Culture (HJC-2)** — committee member, HKBU, April 2022
+- **Philosophy, Ethics, and Religious Studies (PERS) reading circle, HKBU** — member, 2017–2019
+
+## Research & Professional Experience
+
+- **Part-time Research Associate** — Choi Chang Sau Qin Making Society monograph, Representative List of the Intangible Cultural Heritage of Hong Kong (investigators: Mr Kelwin Kwan and Prof Lian-Hee Wee), June–October 2025
+- **Project Assistant** — Hong Kong Baptist University, April 2021 – June 2022 (projects with Dr Tammy Lai-Ming Ho and Dr Magdalen Ki)
+- **Eco Guide** — World Wildlife Fund Hong Kong, 2019–2020
