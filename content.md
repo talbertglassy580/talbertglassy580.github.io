@@ -20,7 +20,7 @@
 
 <img class="portrait" src="images/profile.svg" alt="Portrait of Tommy Y.C. Wong">
 
-<h1>Tommy YC Wong</h1>
+<h1>Tommy YC Wong | 黃昱翔</h1>
 
 <p class="subtitle">PhD student in Linguistics, Hong Kong Baptist University</p>
 
@@ -36,7 +36,7 @@ I am a PhD student in the Department of English Language and Literature at [Hong
 - **May 2026** — [Placeholder] Presented at a conference on Optimality Theory — [Slides](files/wong-2026-placeholder-slides.pdf)
 - **Mar 2026** — [Placeholder] New manuscript on the ethics–linguistics interface available as a preprint
 - **Jan 2026** — [Placeholder] Began serving as a teaching assistant for an introductory linguistics course
-- **Sep 2025** — [Placeholder] Started the PhD programme in linguistics at HKBU
+- **Feb 2026** — Achieved 
 
 # Research
 
