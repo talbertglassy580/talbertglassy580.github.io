@@ -28,24 +28,23 @@
 **黃昱翔**
 
 - [wongyc.tommy@gmail.com](mailto:wongyc.tommy@gmail.com)
-
+- [ORCID](https://orcid.org/0009-0008-2769-3536)
+- [Research Gate] (https://www.researchgate.net/profile/Tommy-Wong-18?ev=hdr_xprf)
+- [Download CV](files/wong-cv.pdf)
 # About
 
-I am a PhD student in the Academy of Language and Culture, Faculty of Arts and Social Sciences, [Hong Kong Baptist University](https://www.hkbu.edu.hk/). My research explores the *linguistics–ethics interface*: my PhD project investigates the grammatical system of ethical behaviours. My wider interests include eye-tracking, prosody, and orthography.
+Hi, I am Tommy. I study the kind of cognitive system that allows people to make moral judgments the way we do.
+I am currently a PhD student in Linguistics at [Hong Kong Baptist University](https://www.hkbu.edu.hk/). Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
 
-Before my PhD, I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022) and a B.A. in English Language and Literature (First Class Honours) at HKBU (2020). I convene the Formal Language and Philosophy (FLaP) reading circle and edit *FLaP FIRST: Journal for Formal Linguistics and Philosophy*. I am an Associate Fellow of the Higher Education Academy (AFHEA).
-
-[Google Scholar](#) · [ORCID](#) · [GitHub](#) · [Download CV](files/wong-cv.pdf)
+I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022). I edit a student-led peer review journal [*FLaP FIRST: Journal for Formal Linguistics and Philosophy*](https://flapfirstjournal.wordpress.com/). I am an Associate Fellow of the Higher Education Academy (AFHEA).
 
 ## News
 
-- **Sep 2026** — Presenting *Principled Variations in Lyrics Segmentation* at EACL-13, Paris — [Abstract](files/eacl-abstract.pdf)
-- **May 2026** — *FLaP FIRST* volume 2 is out, my first issue as Editor-in-Chief — [PDF](files/flap-first-vol2.pdf)
-- **May 2026** — Seminar reflection on individual differences in multilingual acquisition published at [HKBU English Agora](https://buhk.me/2026/05/13/seminar-reflection-on-individual-differences-are-revealing-relevant-and-not-random-in-multilingual-language-acquisition-processing-and-related-adaptations-in-neurocognition/)
-- **Jan 2026** — Qualifying exam paper *Ocular Signature of Harm-related Moral Judgments* completed — [PDF](files/crp-20260114.pdf)
-- **Nov 2025** — Gave a guest lecture on eye-tracking methods in LANG7110 Research Methodology, HKBU
-- **May 2025** — *FLaP FIRST* volume 1 published — [PDF](files/flap-first-vol1.pdf)
-- **Sep 2024** — Started the PhD programme in linguistics at HKBU
+- **May 2026** — Abstract of *Principled Variations in Lyrics Segmentation* accepted by a linguistics conference [EACL-13](https://eacl-13.sciencesconf.org/) — [Abstract](files/eacl-abstract.pdf)
+- **May 2026** — Published *FLaP FIRST* volume 2 (editor-in-chief) — [Link](https://flapfirstjournal.wordpress.com/issues/)
+- **Mar 2026** — Achieved the status of **Associate Fellow** at [AdvanceHE](https://advance-he.ac.uk/)
+- **Feb 2026** — Completed qualifying exam with the manuscript *Ocular Signature of Harm-related Moral Judgments*  — [PDF](files/crp-20260114.pdf)
+- **May 2025** — Published *FLaP FIRST*  volume 1 — [Link](https://flapfirstjournal.wordpress.com/issues/)
 
 # Research
 
