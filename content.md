@@ -29,14 +29,15 @@
 
 - [wongyc.tommy@gmail.com](mailto:wongyc.tommy@gmail.com)
 - [ORCID](https://orcid.org/0009-0008-2769-3536)
-- [Research Gate] (https://www.researchgate.net/profile/Tommy-Wong-18?ev=hdr_xprf)
+- [Research Gate](https://www.researchgate.net/profile/Tommy-Wong-18?ev=hdr_xprf)
 - [Download CV](files/wong-cv.pdf)
 # About
 
-Hi, I am Tommy. I study the kind of cognitive system that allows people to make moral judgments the way we do.
-I am currently a PhD student in Linguistics at [Hong Kong Baptist University](https://www.hkbu.edu.hk/). Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
+Hi, I am Tommy. I am interested in studying the kind of cognitive system that allows people to make moral judgments the way we do.
 
-I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022). I edit a student-led peer review journal [*FLaP FIRST: Journal for Formal Linguistics and Philosophy*](https://flapfirstjournal.wordpress.com/). I am an Associate Fellow of the Higher Education Academy (AFHEA).
+I am currently a PhD student in Linguistics at Hong Kong Baptist University. Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
+
+I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022). I edit a student-led journal [*FLaP FIRST: Journal for Formal Linguistics and Philosophy*](https://flapfirstjournal.wordpress.com/) (ISSN: 3105-6415). I am an Associate Fellow of AdvanceHE (AFHEA).
 
 ## News
 
@@ -44,7 +45,7 @@ I completed an M.A. in Philosophy at the Chinese University of Hong Kong (2022).
 - **May 2026** — Published *FLaP FIRST* volume 2 (editor-in-chief) — [Link](https://flapfirstjournal.wordpress.com/issues/)
 - **Mar 2026** — Achieved the status of **Associate Fellow** at [AdvanceHE](https://advance-he.ac.uk/)
 - **Feb 2026** — Completed qualifying exam with the manuscript *Ocular Signature of Harm-related Moral Judgments*  — [PDF](files/crp-20260114.pdf)
-- **May 2025** — Published *FLaP FIRST*  volume 1 — [Link](https://flapfirstjournal.wordpress.com/issues/)
+- **May 2025** — Published *FLaP FIRST*  Vol. 1 — [Link](https://flapfirstjournal.wordpress.com/issues/)
 
 # Research
 
