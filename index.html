@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tommy Y.C. Wong — Linguistics, HKBU</title>
+  <meta name="description" content="Tommy Y.C. Wong is a PhD student in linguistics at Hong Kong Baptist University, working on formal linguistics, the ethics–linguistics interface, and Optimality Theory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='14' fill='%231f4e6e'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' fill='white' text-anchor='middle'>W</text></svg>">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a class="site-name" href="#about">Tommy Y.C. Wong</a>
+    <nav><ul id="nav"></ul></nav>
+  </div>
+</header>
+
+<main>
+  <div class="container" id="content">
+    <p class="muted">Loading…</p>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 Tommy Y.C. Wong · Last updated July 2026
+  </div>
+</footer>
+
+<script>
+(async function () {
+  const content = document.getElementById('content');
+  const navList = document.getElementById('nav');
+
+  let text;
+  try {
+    const res = await fetch('content.md', { cache: 'reload' });
+    if (!res.ok) throw new Error(res.status);
+    text = await res.text();
+  } catch (err) {
+    content.innerHTML =
+      '<p><strong>Could not load content.md.</strong></p>' +
+      '<p class="muted small">If you opened index.html directly from disk, browsers block the ' +
+      'file request. Serve the folder over HTTP instead, e.g. run ' +
+      '<code>python3 -m http.server</code> in the site folder and open ' +
+      '<code>http://localhost:8000/</code>. On GitHub Pages this works automatically.</p>';
+    return;
+  }
+
+  // Split the markdown into tabs at each top-level "# Heading".
+  const sections = [];
+  let current = null;
+  for (const line of text.split('\n')) {
+    const m = line.match(/^# (.+)$/);
+    if (m) {
+      current = { title: m[1].trim(), body: [] };
+      sections.push(current);
+    } else if (current) {
+      current.body.push(line);
+    }
+  }
+  if (!sections.length) {
+    content.innerHTML = '<p>content.md has no "# Heading" sections.</p>';
+    return;
+  }
+
+  const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  for (const s of sections) {
+    s.id = slug(s.title);
+    const li = document.createElement('li');
+    li.innerHTML = '<a href="#' + s.id + '">' + s.title + '</a>';
+    navList.appendChild(li);
+  }
+
+  function render() {
+    const id = location.hash.replace('#', '') || sections[0].id;
+    const section = sections.find((s) => s.id === id) || sections[0];
+    content.innerHTML = marked.parse(section.body.join('\n'), { breaks: true });
+    document.title = section === sections[0]
+      ? 'Tommy Y.C. Wong — Linguistics, HKBU'
+      : section.title + ' — Tommy Y.C. Wong';
+    for (const a of navList.querySelectorAll('a')) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + section.id);
+    }
+    window.scrollTo(0, 0);
+  }
+
+  window.addEventListener('hashchange', render);
+  render();
+})();
+</script>
+
+</body>
+</html>

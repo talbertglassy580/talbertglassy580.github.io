@@ -1,0 +1,235 @@
+:root {
+  --bg: #fdfcfa;
+  --ink: #211f1c;
+  --muted: #716c64;
+  --faint: #a29d94;
+  --accent: #1f4e6e;        /* deep scholarly blue */
+  --accent-hover: #2f6b93;
+  --rule: #e6e1d8;
+  --card: #f6f4ef;
+  --serif: "Source Serif 4", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 17px; }
+
+body {
+  font-family: var(--serif);
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- Header / navigation ---------- */
+
+header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+}
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1.6rem 0 1.3rem;
+}
+
+.site-name {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+nav a {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease;
+}
+
+nav a:hover { color: var(--ink); }
+
+nav a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Main content (rendered markdown) ---------- */
+
+main { padding: 3rem 0 4rem; }
+
+#content h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem;
+}
+
+#content .subtitle {
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: -0.8rem 0 1.4rem;
+}
+
+#content h2 {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 2.8rem 0 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+#content h2:first-child { margin-top: 0; }
+
+#content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0 0.4rem;
+}
+
+#content p { margin-bottom: 1rem; }
+
+/* keyword lines: an italic-only paragraph right after a project title */
+#content h3 + p em {
+  font-family: var(--sans);
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+#content ul, #content ol {
+  margin: 0 0 1.4rem 1.2rem;
+}
+
+#content li { margin-bottom: 0.5rem; }
+
+#content code {
+  font-size: 0.85em;
+  background: var(--card);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+.muted { color: var(--muted); }
+.small { font-size: 0.88rem; }
+
+/* ---------- Portrait (About tab) ---------- */
+
+#content img.portrait {
+  float: right;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  margin: 0.3rem 0 1.2rem 2rem;
+}
+
+#content img { max-width: 100%; }
+
+/* ---------- Cards: publications & talks (markdown blockquotes) ---------- */
+
+#content blockquote {
+  margin: 0 0 1.6rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--rule);
+}
+
+#content blockquote p { margin-bottom: 0.15rem; }
+
+#content blockquote em { color: var(--muted); }
+
+/* ---------- Download buttons: any link into files/ ---------- */
+
+#content a[href^="files/"],
+#content blockquote a {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0.2rem 0.35rem 0.2rem 0;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--accent);
+}
+
+#content a[href^="files/"]:hover,
+#content blockquote a:hover {
+  border-color: var(--accent);
+  background: var(--card);
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.6rem 0 2.4rem;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  color: var(--faint);
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 640px) {
+  html { font-size: 16px; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  nav ul { flex-wrap: wrap; gap: 1rem 1.3rem; }
+  #content img.portrait {
+    float: none;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 0 1.4rem;
+  }
+}
