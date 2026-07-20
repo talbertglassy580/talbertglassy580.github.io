@@ -33,7 +33,7 @@
 - [Download CV](files/wong-cv.pdf)
 # About
 
-Welcome! I study what kind of cognitive system allows people to make moral judgments the way we do.
+Welcome to my site! I study what kind of cognitive system allows people to make moral judgments the way we do.
 
 I am currently a PhD student in Linguistics at Hong Kong Baptist University. Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
 
