@@ -46,20 +46,9 @@ header {
 .header-inner {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.75rem;
   padding: 1.6rem 0 1.3rem;
-}
-
-.site-name {
-  font-family: var(--serif);
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  text-decoration: none;
-  border-bottom: none;
 }
 
 nav ul {
@@ -348,8 +337,11 @@ footer {
   }
 
   /* nav docks to the bottom of the screen */
-  /* side padding matches .container, so the name lines up with the portrait */
-  .header-inner { padding: 1.1rem 1.5rem 1rem; }
+  /* nothing left in the header bar: collapse it, but keep the (fixed) nav
+     rendered — display:none on the header would hide that too */
+  header { border-bottom: none; }
+  .header-inner { padding: 0; }
+  main { padding-top: 1.8rem; }
 
   header nav {
     position: fixed;
