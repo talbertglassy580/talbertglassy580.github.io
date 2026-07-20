@@ -27,7 +27,7 @@
 **Tommy YC Wong**
 **黃昱翔**
 
-- [wongyc.tommy@gmail.com](mailto:wongyc.tommy@gmail.com)
+- wongyc.tommy@gmail.com
 - [ORCID](https://orcid.org/0009-0008-2769-3536)
 - [Research Gate](https://www.researchgate.net/profile/Tommy-Wong-18?ev=hdr_xprf)
 - [Download CV](files/wong-cv.pdf)
