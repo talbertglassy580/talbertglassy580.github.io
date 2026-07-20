@@ -348,7 +348,8 @@ footer {
   }
 
   /* nav docks to the bottom of the screen */
-  .header-inner { padding: 1.1rem 0 1rem; }
+  /* side padding matches .container, so the name lines up with the portrait */
+  .header-inner { padding: 1.1rem 1.5rem 1rem; }
 
   header nav {
     position: fixed;
@@ -374,7 +375,7 @@ footer {
   nav a {
     display: block;
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.69rem;
     letter-spacing: 0.05em;
     padding: 0 0.1rem 0.3rem;
   }

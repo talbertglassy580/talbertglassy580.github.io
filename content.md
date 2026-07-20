@@ -33,7 +33,7 @@
 - [Download CV](files/wong-cv.pdf)
 # About
 
-Hi, I am Tommy. I am interested in studying the kind of cognitive system that allows people to make moral judgments the way we do.
+Hi, I am Tommy. I study what kind of cognitive system allows people to make moral judgments the way we do.
 
 I am currently a PhD student in Linguistics at Hong Kong Baptist University. Supervised by [Prof. Lian-Hee WEE](https://eng.hkbu.edu.hk/en/people/academic-staff/wee-lian-hee.html), my research explores whether grammatical frameworks adequately explain how people make moral judgments. My wider interests include eye-tracking, prosody, and orthography.
 
