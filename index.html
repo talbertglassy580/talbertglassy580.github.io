@@ -41,6 +41,15 @@
   const content = document.getElementById('content');
   const navList = document.getElementById('nav');
 
+  // Open every real link in a new tab (in-page tab links stay in place).
+  function externalise(root) {
+    for (const a of root.querySelectorAll('a[href]')) {
+      if (a.getAttribute('href').startsWith('#')) continue;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+    }
+  }
+
   let text;
   try {
     const res = await fetch('content.md', { cache: 'reload' });
@@ -77,8 +86,9 @@
   const profileIdx = sections.findIndex((s) => s.title.toLowerCase() === 'profile');
   if (profileIdx !== -1) {
     const profile = sections.splice(profileIdx, 1)[0];
-    document.getElementById('profile').innerHTML =
-      marked.parse(profile.body.join('\n'), { breaks: true });
+    const profileEl = document.getElementById('profile');
+    profileEl.innerHTML = marked.parse(profile.body.join('\n'), { breaks: true });
+    externalise(profileEl);
   }
   if (!sections.length) {
     content.innerHTML = '<p>content.md only has a Profile section — add some tabs.</p>';
@@ -98,6 +108,7 @@
     const id = location.hash.replace('#', '') || sections[0].id;
     const section = sections.find((s) => s.id === id) || sections[0];
     content.innerHTML = marked.parse(section.body.join('\n'), { breaks: true });
+    externalise(content);
     document.title = section === sections[0]
       ? 'Tommy Y.C. Wong — Linguistics, HKBU'
       : section.title + ' — Tommy Y.C. Wong';
